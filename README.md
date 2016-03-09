@@ -1,2 +1,9 @@
 # stringify
-Program stringify produces a String() function similar to stringer and is intended to be used like stringer with go generate. It also creates a New() function that turns a string into a const.
+
+Program stringify is a replacement of stringer that produces lintable
+and testable string representations of constants.  It accepts exactly
+one const type to stringify and works within the file from which
+generate was run.
+
+For more details, see the
+[godoc](https://godoc.org/github.com/icub3d/stringify).
